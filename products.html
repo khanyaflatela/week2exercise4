@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">✦ TechZone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="alert alert-info text-center m-0 rounded-0">🛒 All products in stock - Order today!</div>
+
+    <div class="container my-5">
+        <h1 class="text-center animate__animated animate__fadeInDown">Our Products</h1>
+        <p class="text-center text-muted">8 everyday electronics</p>
+
+        <!-- GRID - flex/grid requirement -->
+        <div class="row g-4 mt-3">
+            <!-- 1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 shadow animate__animated animate__zoomIn">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjyiAPootpf6vR69P4hTd1Uky--fCjKC-sguJ62sAvHA&s=10" class="card-img-top" alt="airfryer" width="400" height="300">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Air fryer</h5>
+                        <p class="card-text">Cook delicious, crispy meals using little to no oil.</p>
+                        <p class="fw-bold">R 199.99</p>
+                        <button class="btn btn-success mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 shadow animate__animated animate__zoomIn">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUOZKFrthoSBMHHWrYtfERb9ix-QbmiWQp22v4a2LB6Q&s=10" class="card-img-top" alt="Smartwatch" width="400" height="300">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Smart Watch</h5>
+                        <p class="card-text">Portable and for everyday use.</p>
+                        <p class="fw-bold">R 159.99</p>
+                        <button class="btn btn-success mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 shadow animate__animated animate__zoomIn">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZGXW02JnBpfeotcMs5gHGZ_VDWKglLqQs0NITu6F4aQ&s=10" class="card-img-top" alt="Headphones"  width="400" height="300">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Wireless Headphones</h5>
+                        <p class="card-text">Clear sound, long battery.</p>
+                        <p class="fw-bold">R 699.99</p>
+                        <button class="btn btn-success mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 shadow animate__animated animate__zoomIn">
+                    <img src="data:image/avif;base64,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" class="card-img-top" alt="Hairdryer" width="400" height="300">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Hair Dryer</h5>
+                        <p class="card-text">Dry hair faster with less heat stress.</p>
+                        <p class="fw-bold">R 199.99</p>
+                        <button class="btn btn-success mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 shadow animate__animated animate__zoomIn">
+                    <img src="https://www.dressyourtech.co.za/cdn/shop/files/9c0a09b7-3318-4d2a-8a8d-a14f7b0bbdc8-01KQPRDEWFVMG02SYE9WZ34HMR_1024x.jpg?v=1784784616" class="card-img-top" alt="Powerbank" width="400" height="300">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Wireless Power Bank</h5>
+                        <p class="card-text">Fast charging and Wireless.</p>
+                        <p class="fw-bold">R 349.99</p>
+                        <button class="btn btn-success mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 shadow animate__animated animate__zoomIn">
+                    <img src="https://www.istore.co.za/media/catalog/product/cache/7cbfd4bf9761b066f119e95af17e67c5/3/0/30oz_pro_2_white_tumbler_1_usa.jpg" class="card-img-top" alt="TechWaterBottle" width="400" height="300">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Tech. Water Bottle 1L</h5>
+                        <p class="card-text">Keeps track how much you drink.</p>
+                        <p class="fw-bold">R 249.99</p>
+                        <button class="btn btn-success mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 shadow animate__animated animate__zoomIn">
+                    <img src="https://www.valdus.com/wp-content/uploads/2024/07/202407290906471bdedb22a6ee53fa-rotated.jpg" class="card-img-top" alt="Smartring" width="400" height="300">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Smart Ring</h5>
+                        <p class="card-text">Low-distraction biometric tracking.</p>
+                        <p class="fw-bold">R 599.99</p>
+                        <button class="btn btn-success mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 shadow animate__animated animate__zoomIn">
+                    <img src="https://www.trilite-tech.com/wp-content/uploads/smart-augmented-reality-glasses-components.png" class="card-img-top" alt="Smartglasses" width="400" height="300">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Smart Glasses</h5>
+                        <p class="card-text">Get all your gadgets in one.</p>
+                        <p class="fw-bold">R 179.99</p>
+                        <button class="btn btn-success mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <p class="mb-0">© 2026 TechZone | Cape Town, South Africa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
